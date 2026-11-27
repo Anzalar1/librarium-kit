@@ -14,9 +14,8 @@ mod, unchanged (Apache-2.0, see plugins/blast-radius/LICENSE and NOTICE): it hol
 they would delete or discard, with Proceed and Cancel. Needs `bash`, `git`, `find` and `du` on PATH (on Windows: Git
 for Windows with its Unix tools on PATH).
 
-**replay-theater** and **token-weather**: Anthropic's other two example mods, unchanged (Apache-2.0): step through the
-file edits of the last turn one diff at a time (`/replay`), and a weather-style forecast of the context window above
-the prompt. Token Weather and the savvy-progress bar both draw in the band above the prompt, which shows one at a time.
+**replay-theater**: Anthropic's example mod, unchanged (Apache-2.0): step through the file edits of the last turn one
+diff at a time (`/replay`).
 
 ## Install (Claude Code)
 
@@ -26,7 +25,6 @@ the prompt. Token Weather and the savvy-progress bar both draw in the band above
 /plugin install savvy-flow@librarium-kit
 /plugin install blast-radius@librarium-kit
 /plugin install replay-theater@librarium-kit
-/plugin install token-weather@librarium-kit
 ```
 
 Then restart Claude Code (or run `/reload-plugins`). `/agents-info` shows or hides the panel.

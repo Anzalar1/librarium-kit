@@ -5,7 +5,7 @@
     "url": "https://github.com/Anzalar1"
   },
   "metadata": {
-    "description": "savvy-flow, a 40K-themed fork of savvy-progress (johnnyvizz/claude-kit, MIT) and Anthropic's three example mods: Blast Radius, Replay Theater, Token Weather (Apache-2.0)."
+    "description": "savvy-flow, a 40K-themed fork of savvy-progress (johnnyvizz/claude-kit, MIT) and two of Anthropic's example mods: Blast Radius and Replay Theater (Apache-2.0)."
   },
   "plugins": [
     {
@@ -33,13 +33,6 @@
       "name": "replay-theater",
       "source": "./plugins/replay-theater",
       "description": "Mod (Anthropic, unchanged): step through the file edits Claude made in the last turn, one diff at a time.",
-      "version": "0.1.0",
-      "category": "mod"
-    },
-    {
-      "name": "token-weather",
-      "source": "./plugins/token-weather",
-      "description": "Mod (Anthropic, unchanged): a live forecast of the context window, drawn above the prompt.",
       "version": "0.1.0",
       "category": "mod"
     }
