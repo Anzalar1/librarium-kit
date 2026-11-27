@@ -5,7 +5,7 @@
     "url": "https://github.com/Anzalar1"
   },
   "metadata": {
-    "description": "savvy-flow + a 40K-themed fork of savvy-progress (from johnnyvizz/claude-kit, MIT)."
+    "description": "savvy-flow, a 40K-themed fork of savvy-progress (johnnyvizz/claude-kit, MIT) and Anthropic's Blast Radius mod (Apache-2.0)."
   },
   "plugins": [
     {
@@ -20,6 +20,13 @@
       "source": "./plugins/savvy-progress",
       "description": "Mod: progress bar above the prompt and a live agents panel; made for savvy-flow, shows any subagents. 40K costumes and Librarium colours.",
       "version": "1.2.1-40k",
+      "category": "mod"
+    },
+    {
+      "name": "blast-radius",
+      "source": "./plugins/blast-radius",
+      "description": "Mod (Anthropic, unchanged): holds risky shell commands (rm -rf, git reset --hard, git clean, force push, migrations) and shows what they would change, with Proceed and Cancel.",
+      "version": "0.1.0",
       "category": "mod"
     }
   ]

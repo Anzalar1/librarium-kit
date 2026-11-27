@@ -9,12 +9,18 @@ serve the Imperium: a levitating Librarian, an Inquisitor with his rosette, a Te
 Marine with a bolter, a Guardsman with the Imperial banner, a Rogue Trader with a power sword, and a purity-sealed
 servitor for everything else. Colours are stone, brass and parchment. **savvy-flow** is upstream, unchanged.
 
+**blast-radius**: Anthropic's [Blast Radius](https://github.com/anthropics/claude-code-playground/tree/main/claude-code/mods/blast-radius)
+mod, unchanged (Apache-2.0, see plugins/blast-radius/LICENSE and NOTICE): it holds risky shell commands and shows what
+they would delete or discard, with Proceed and Cancel. Needs `bash`, `git`, `find` and `du` on PATH (on Windows: Git
+for Windows with its Unix tools on PATH).
+
 ## Install (Claude Code)
 
 ```
 /plugin marketplace add Anzalar1/librarium-kit
 /plugin install savvy-progress@librarium-kit
 /plugin install savvy-flow@librarium-kit
+/plugin install blast-radius@librarium-kit
 ```
 
 Then restart Claude Code (or run `/reload-plugins`). `/agents-info` shows or hides the panel.
