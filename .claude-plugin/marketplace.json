@@ -1,0 +1,26 @@
+{
+  "name": "librarium-kit",
+  "owner": {
+    "name": "Anzalar1",
+    "url": "https://github.com/Anzalar1"
+  },
+  "metadata": {
+    "description": "savvy-flow + a 40K-themed fork of savvy-progress (from johnnyvizz/claude-kit, MIT)."
+  },
+  "plugins": [
+    {
+      "name": "savvy-flow",
+      "source": "./plugins/savvy-flow",
+      "description": "Skill: plan, delegate to tiered worker subagents, review.",
+      "version": "1.2.0",
+      "category": "skill"
+    },
+    {
+      "name": "savvy-progress",
+      "source": "./plugins/savvy-progress",
+      "description": "Mod: progress bar above the prompt and a live agents panel; made for savvy-flow, shows any subagents. 40K costumes and Librarium colours.",
+      "version": "1.2.1-40k",
+      "category": "mod"
+    }
+  ]
+}
